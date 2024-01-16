@@ -5,19 +5,15 @@
 
 Byebye Basic RAG: Embracing Advanced Retrieval with MongoDB Vector Search
 Parent-Child Relationships and Vectorization
-Introduction
+# Introduction
 Imagine you're a detective in the enormous world of information, trying to find that one vital clue hidden in a mountain of data. This is where Retrieval Augmented Generation (RAG) comes into play, acting like your reliable assistant in the world of AI and language models. But as we've seen in my previous article, even the best assistants have their limits. So, let's set off on an adventure to explore the need for an advanced RAG approach, focusing on precision and context in large-scale document retrieval.
-Basic RAG: A Compass Needing Calibration
+# Basic RAG: A Compass Needing Calibration
 Imagine an encyclopedia as wide as the horizon itself. Basic RAG attempts to distill this vast knowledge into a single 'embedding' - essentially a digital essence. But when you seek wisdom on a particular subject, like the enigmatic Bermuda Triangle, basic RAG's broad strokes paint over the finer details, leaving you with an incomplete picture. This limitation is like trying to find a hidden treasure with a map that only shows continents, not the intricate paths that lead to the spot marked 'X'.
 Basic RAG - by authorOn the flip side, if we possess only isolated pages with their embeddings, we might pinpoint specific facts, but we lose the story they tell when woven together. Without the narrative, the Large Language Model (LLM) struggles to craft an answer that captures the true essence of our inquiry.
 Basic RAG, while a commendable guide, falls short of the mark. It's a foundation, but to traverse the distances between general knowledge and precise insights, we need more.
 
----
 
-Before we start! 🦸🏻‍♀️
-If you found value in this article and wish to show your support, please 'like' this LinkedIn post. You can also find the free friend link in the LinkedIn post.Your engagement will help extend the reach of this article, your support acts as a great motivator for me. ✍🏻🦾❤️
-Clap my article 50 times, that will really really help me out and boost this article to others.👏
-Follow me on Medium , LinkedIn and subscribe to get my latest article🫶
+
 
 Refining the Path: The Advent of Parent-Child Document Dynamics
 Here, our adventure takes a significant leap forward with the concept of parent-child document relationships. Instead of a single summary of the entire encyclopedia, we curate concise overviews for each page (child documents), mindful of the encompassing chapter (parent document). This approach crafts detailed 'digital essences' for each page, which act as precise signposts in our search for knowledge.
@@ -26,6 +22,7 @@ The Need for a More Refined Approach
 Basics RAG is great for getting a general idea, but when it comes to the specifics, the details get lost in the mix. In our detective story of data exploration, this is necessary to have a map that shows you the entire country when you're looking for a specific street in a small town. The embedding created by basic RAG for large documents becomes a blurred representation, making it difficult to pinpoint the exact information needed.
 Advanced RAG: A Dive into Parent-Child Relationships and Vectorization
 In the expanding universe of AI, we've seen how basic RAG can sometimes get lost in the forest of data when trying to pinpoint the tree of truth. But fear not, because advanced RAG, with its parent-child relationships and vectorization, is here to turn over a new leaf. Let's explore these concepts using the diagrams provided, which illustrate the process of making sense of large volumes of information and retrieving just what we need.
+
 Step 1: Parent-Child Document Relationships
 Imagine you have a large, unwieldy book - a user manual for every appliance ever made. Now, someone asks a specific question: "Why is my washing machine displaying error code 2?" With basic RAG, either we get small chunks which lacks of context either we get big chunks the search is not accurate enough. Advanced RAG, however, takes a smarter approach.
 Firstly, the manual is broken down into big chunks - these are our 'parent' documents. Each section deals withlarger infomation. Within these sections, we split 'child' documents that cover specific issues, like error codes for washing machines.
