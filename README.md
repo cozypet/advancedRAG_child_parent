@@ -1,6 +1,6 @@
 # advancedRAG_child_parent
 
-
+https://ai.gopubby.com/byebye-basic-rag-embracing-advanced-retrieval-with-mongodb-vector-search-47b550be2c59
 ---
 
 Byebye Basic RAG: Embracing Advanced Retrieval with MongoDB Vector Search
